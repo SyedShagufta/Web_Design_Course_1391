@@ -1,0 +1,7 @@
+Web Designing Task 1:
+
+-- Create a form in HTML including fields such as Name, Email, Password, Phone number, gender, choose state, feedback.
+
+-- If click on submit show the response page in new tab.
+
+-- Response page must include 'go back' button to redirect to the form.
