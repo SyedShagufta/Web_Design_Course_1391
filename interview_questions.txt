@@ -1,0 +1,22 @@
+1. What is Canvas in HTML?
+--> It is a tag in HTML (<canvas> </canvas) used to add graphical elements to the website such as Hallow circles, sphere,
+gradient colors, textures, empty box, graphs etc
+
+--> By itself it is just an empty rectangle
+--> using JavaScript you can draw on it - shapes, lines, text, images, animations.
+
+2. What is the difference between Inline elements and Block-level elements (div and span)
+--> div is a block level element and span is an inline element
+* Block level Elements 
+    - such HTML elements which cover the entire width of the webpage
+    - Elements next to the block level element shift to the next lines
+    - It occupies some extra margin
+
+    Examples: div, main, h1 to h6, section, head, p, pre, li
+
+* Inline Elements:
+    - such HTML elements which cover the maximum content width
+    - Elements next to the inline element which will not shift to the next line
+    - It does not occupy extra margin
+
+    Examples: br, hr, a, input, label, img, audio, video
