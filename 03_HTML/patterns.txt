@@ -1,0 +1,51 @@
+General patterns:
+
+Normal ten digits phone pattern: "[0-9]{10}"
+
+phone number with country code: "[+91 ]{4}[0-9]{10}"
+
+Username patter: "[A-Z]{1}[a-z]{1,}[0-9]{1,}"
+
+Password: 
+
+1. Password with 8 characters: [A-Za-z0-9@#$%^]{8}
+
+2. First letter capital, includes small letters, then @ symbol,
+
+ then three digits: Amar@123 -- [A-Z]{1}[a-z]+[@]{1}[0-9]{3}
+
+Email pattern: [a-z]+[@]{1}[a-z0-9]+[.com]{4}
+
+Audio tag in HTML:
+
+src - address of audio 
+
+type - mp3,ogg
+
+controls - interface
+
+autoplay - if we want to play audio automatically when someone open your web site.
+
+loop - play song continously
+
+muted - by-default muted audio 
+
+Video tag in HTML:
+
+src - address of audio 
+
+type - mp4, Webm
+
+controls - interface
+
+autoplay - if we want to play audio automatically when someone open your web site.
+
+loop - play song continously
+
+muted - by-default muted audio 
+
+height - 
+
+width -
+
+poster - Cover page
