@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spanning Table</title>
+    <style>
+      .blue {
+        background-color: rgb(14, 209, 212);
+      }
+      .yellow {
+        background-color: yellow;
+      }
+      .red {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>Spanning the table rows and columns</h1>
+
+      <table border="2" cellpadding="10px">
+        <tr>
+          <td rowspan="3" class="blue">This is spanning all three rows</td>
+
+          <td colspan="3" class="blue">I'm spanning three columns</td>
+        </tr>
+
+        <tr>
+          <td class="yellow">Data</td>
+          <td class="yellow">Boring old data</td>
+          <td class="yellow">
+            <img
+              src="https://img.freepik.com/premium-photo/png-gold-sparkling-star-transparent-background_53876-1042773.jpg?semt=ais_hybrid&w=740&q=80"
+              alt=""
+              srcset=""
+              width="150px"
+              height="50px"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td class="red">Red data</td>
+          <td>
+            <img
+              src="https://img.freepik.com/premium-photo/png-gold-sparkling-star-transparent-background_53876-1042773.jpg?semt=ais_hybrid&w=740&q=80"
+              alt=""
+              srcset=""
+              width="150px"
+              height="50px"
+            />
+          </td>
+          <td class="blue">The last of the data</td>
+        </tr>
+      </table>
+      <h2 style="color: red">The Colorful table</h2>
+    </center>
+  </body>
+</html>
