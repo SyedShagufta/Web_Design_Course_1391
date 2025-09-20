@@ -1,0 +1,87 @@
+CSS - Cascading Style Sheet
+
+Three ways to define CSS:
+1. Inline CSS
+2. Internal CSS
+3. External CSS
+
+CSS selectors:
+
+Basic selectors:
+
+1. ID selectors: Used to select HTML element based on particular id.
+
+-- It is denoted by '#'.
+
+2. Class selectors: Used to design group of similar elements.
+
+-- It is denoted by using '.'
+
+-- one can write combination of classes separated by space.
+
+3. Element selectors: Used to select HTML element based on tag name. Ex: h1{}
+
+4. Universal selectors: Used to select whole HTML document.
+
+-- It is denoted by '*'.
+
+-- It will the inbuilt properties of HTML input elements.
+
+Advanced selectors:
+
+1. Descendand(space):Used to enter a child element from a parent element.
+
+syntax: parent child{styling}
+
+2. General sibling selectors (~):
+
+3. Direct/immediate child selectors (>):
+
+4. Adjacent Selector(+):
+
+advanced selectors ------> pseudo elements/classes
+
+//CSS
+
+Definition: 
+
+-- CSS stands for Cascasding style sheets.
+
+-- It is used to design the layout of webpage.
+
+-- One can add colors, designs, arrangment HTML contents using css.
+
+Types to implement CSS:
+
+1. Inline CSS
+
+2. Internal CSS
+
+3. External CSS
+
+proirity based css:
+
+inline css ----> depends on the postion of styling
+
+inline case limitations:
+
+-- Time consuming
+
+-- code readability
+
+-- code repeatition
+
+internal css case limitations:
+
+-- Time consuming
+
+-- code repeatition
+
+External css advantages:
+
+Time Efficiently utilised
+
+code readability increases
+
+Difference between Universal selector and body :
+Universal selector removes inbuilt css properties like margin and padding
