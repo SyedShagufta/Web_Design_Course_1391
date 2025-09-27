@@ -1,0 +1,8 @@
+New CSS Tags
+------------
+1. <details> </details> - user can open and close the details 
+2. <summary> </summary> - Just the summary for the details will be visible for user
+3. <figcaption> </figcaption>
+4. <figure> </figure> - Use figure tag when we are inserting the image (Advanced concept)
+5. <legend> </legend>
+6. <fieldset> </fieldset>

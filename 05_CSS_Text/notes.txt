@@ -1,0 +1,22 @@
+Font-styles:
+============
+
+Font-style : Normal, Italic
+
+Box Model:
+==========
+
+The CSS box model is essentially a box that wraps around every HTML element. 
+It consists of margins, borders, padding and the actual content
+
+Margin: top right left bottom
+Padding: top right bottom left
+
+border
+
+border-width
+border-style 
+
+height, width
+
+border
