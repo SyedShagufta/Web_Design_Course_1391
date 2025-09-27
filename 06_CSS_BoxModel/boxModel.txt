@@ -1,0 +1,44 @@
+1. What is Box-Model in CSS ?
+
+Border, padding, Margin, 
+
+padding syntax 
+
+* If we give one value then It applies on both sides 
+
+padding : 20px;
+
+* If we give two values then it applies as First value (Top-bottom) Second Value (Left-Right)
+
+padding: 20px 100px;
+
+* If we give four values then it applies as top right bottom left 
+
+padding: 50px 100px 150px 200px;
+
+Outline - It is the space between border and margin
+Cannot be applied for a particular side. It has to be applied from all the sides.
+Outline doesn't take up the width and height
+
+Outline-offset: It is the space between border and Outline. We cannot give color to it.
+The default value is zero.
+
+Border-radius :
+
+border-radius - One value - All corners
+border-radius - Two values - TopLeftAndBottomRight TopRightAndBottomLeft
+border-radius - Four Values - TopLeft TopRight BottomRight TopRightAndBottomLeft
+
+Box-Shadow:
+
+h-offset v-offset blur spread color 
+
+The box-shadow property specifies the shadow effect surrounding the box
+The blur value adds blurness to the shadow
+The spread value enhances the shadow
+
+Example:
+box-shadow: 10px 15px 5px 3px red;
+
+
+
