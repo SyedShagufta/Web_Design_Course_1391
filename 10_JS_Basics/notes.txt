@@ -1,0 +1,51 @@
+//Javascript Module
+
+Definition:
+
+-- It is scripting language.
+
+-- It is loosely typed Object Oriented Programming language.
+
+Q. Why it is called as loosely type programming languege?
+
+-> Because we don't mentioned data types while defining variables in javascript.
+
+Strongly type programming languages:
+
+-- C, C++, Java
+
+printing statement: console.log()
+
+--used to print anything in console section of inspect mode.
+
+varaibles:
+
+-- It is container which holds the value.
+
+Types of variables in Javascript:
+
+1. Global scope variable: var
+
+2. Block scope variable: let, const
+
+difference:
+
+var: 
+
+-- accessible everywhere in the file.
+
+-- It can be redclared as well as redefined.
+
+let:
+
+-- It cannot be re-declared.
+
+-- It can be re-define.
+
+const:
+
+-- must initialize the value at the time of declaration.
+
+-- It cannot be re-declared.
+
+-- It cannot be re-define.
