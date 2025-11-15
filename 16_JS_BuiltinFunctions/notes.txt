@@ -1,0 +1,77 @@
+Call back function (Imp - Interview question)
+---------------------------------------------
+
+
+call back hell
+--------------
+
+Promises
+--------
+A promise is an asynchronous action that may complete at some point in the future and produce a value
+This value is not necessarily known at the time of its creation
+once the value 
+
+stages of Promises
+-------------------
+1. pending
+2. resolved
+3. rejected
+
+promise handling
+---------------
+
+.then() and .catch()
+
+Promise chaining
+----------------
+It is a process in which single request is handled by multiple .then() methods due to frequent updates
+in response
+
+Prototype
+---------
+
+AJAX - (asynchronous javascript and xml)
+----------------------------------------
+AJAX is a technique for creating fast and dynamic web pages by asynchronously sending and receiving
+data from a server without reloading the entire page. It uses a combination of 
+HTML (or XHTML)
+
+asynchronous requests : allows web pages to request small amounts of data from the server without refreshing 
+the whole web page
+
+
+https://fakestoreapi.com/products
+
+const xhr = new XMLHttpRequest();
+
+        xhr.open('GET', 'https://fakestoreapi.com/products', true); // true for asynchronous
+
+        xhr.onload = function() {
+
+        if (xhr.status === 200) {
+
+            console.log(xhr.responseText);
+
+        } else {
+
+            console.log('Request failed. Status:', xhr.status);
+
+        }
+
+        };
+
+        xhr.onerror = function() {
+
+        console.log('Request failed');
+
+        };
+
+        xhr.send();
+
+fetch('https://fakestoreapi.com/products')
+
+            .then(response => response.json())
+
+            .then(data => console.log(data))
+
+            .catch(error => console.error('Error:', error));
